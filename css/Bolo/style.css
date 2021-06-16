@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to right,gold, white, yellow);
+}
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ve{
+    color: green;
+}
+.az{
+    color: blue;
+}
+
+li {
+    list-style-type: none;
+}

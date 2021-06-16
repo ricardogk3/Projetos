@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Table template</title>
+ 
+    <style>
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            color: red;
+        }
+        form{
+            text-align: center;
+            border: red solid 2px;
+        }
+        input{
+            border-radius: 15px;
+            border: rgb(151, 145, 145) solid 1px;
+
+        }
+        button{
+            border-radius: 15px;
+        }
+    </style>
+
+</head>
+  
+  <body>
+
+    <h1>Formulário de Inscrição</h1>
+    <h2>Preencha seus dados</h2>
+
+    <!-- tamanho máximo de caracteres de uma matriz: maxlength="8"  
+         tamanho maximo da caixinha: size="22" 
+         deixa o texto pre definido: placeholder="Banana" -->
+                <form action="/pagina-processa-dados-do-form" method="post">
+                    <div>
+                        <label for="name">Nome:</label><br />
+                        <input type="text" id="name" size="30" /><br />
+                    </div>
+                    <div>
+                        <label for="mail">E-mail:</label><br />
+                        <input type="email" id="mail" placeholder="exemplo_de_email@email.com"  size="30"  /><br />
+                    </div>
+                    <div>
+                        <label for="street">Endereço:</label><br />
+                        <input type="text" id="street"  size="30"  /><br />
+                    </div>
+                    <div>
+                        <label for="city">Cidade:</label><br />
+                        <input type="text" id="city"  size="30" /><br />
+                    </div>
+                    <div>
+                        <label for="fone">Telefone:</label><br />
+                        <input type="text" id="ddd"  size="3" placeholder="   +55" />
+                        <input type="text" id="fone"  size="21" placeholder="   21 99999 9999" /><br />
+                    </div>
+                    <div>
+                        <label for="user">Usuário:</label><br />
+                        <input type="text" id="user" size="30" /><br />
+                    </div>
+                    <div>
+                        <label for="name">Senha:</label><br />
+                        <input type="password" id="name" size="30" 
+                        placeholder="   De oito caracteres" 
+                        maxlength="8" minlength="8" /><br />
+                    </div>
+                    <br />
+                    <div class="button">
+                        <button type="submit">Finalizar minha inscrição</button><br />
+                    </div>
+
+            </form>
+
+               
+  </body>
+</html>
+	
+	

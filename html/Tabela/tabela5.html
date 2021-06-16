@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Table template</title>
+
+
+</head>
+  
+<style>
+    html {
+        font-family: sans-serif;
+    }
+    
+    table {
+        /* border-collapse: collapse; */
+        /* border: 2px solid rgb(200,200,200); */
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+        
+    }
+    td {
+        border: 5px solid blue;
+        padding: 20px 20px;
+        text-align: center;
+        /* background-color: yellow; */
+    }
+    th {
+        border: 5px solid red;
+
+    }
+
+</style>
+  
+<body>
+
+
+
+    <table id="tb3" style= "border: black 5px solid;">
+        <colgroup>
+
+        <!-- tr é a linha, td a coluna, 
+            colspan é pra expandir colunas, 
+            rowspan é pra expandir linha-->
+        <tr >
+            <th ><figure style="text-align: center">
+                <img src="unicornio.jpg"
+                style="width: 90%">
+            </figure></th>
+            <th colspan="2" style= "width: 80%; color: red;">Alguma coisa fofinha aqui!</th>
+        </tr>
+
+        <tr >
+            <td rowspan="5" style=" height: 70%;  border: 5px solid green;color: green;">Parte verde</td>
+            <td style=" border: 5px solid green;">        
+                <table height="100%" width="100%" style="color: blue;">
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr height="150px">
+                        <td colspan="2">Central</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr height="150px">
+                        <td >Center-Left Blocks</td>
+                        <td >Center-Right Blocks</td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+
+
+
+  </body>
+</html>
+	

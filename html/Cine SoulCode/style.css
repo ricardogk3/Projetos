@@ -1,0 +1,86 @@
+* {
+    margin: 15;
+    padding: 0;
+  }
+  ul {
+    margin: 0 auto;
+    /* margem  e centraliza*/
+    padding: 0;
+    /* Distancia da origem */
+    list-style: none;
+    width: 150px;
+    /* distancia do bloco */
+}
+
+ul li {
+    position: relative;
+}
+
+li ul {
+    position: absolute;
+    left: 150px;
+    /* distancia de uma lista para a outra lista */
+    top: 0;
+    display: none;
+    /* oculta o item  */
+}
+
+
+ul li a {
+    display: block;
+    /* formata o estilo da lista em blocos */
+    text-decoration: none;
+    color: rgb(60, 180, 196);
+    background: rgb(32, 32,32);
+    padding: 5px;
+    /* Distanciamento da lista, só aquele item da lista. 
+    distancia da caixa interna para a caixa externa  */
+    /* border: 1px solid #ccc; */
+    /* borda externa */
+}
+
+li:hover ul { 
+    display: block; 
+    
+}
+/* Faz o com que quando o item de uma 
+lista for passado pelo mouse tem que exibir uma lista */
+
+ul li a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+    background: rgb(247, 193, 0);
+    color:white;
+}
+
+.menu {
+    float: left;
+}
+
+header {background-color: black;}
+
+
+body {background-color: rgb(32, 32, 32);}
+.mensagem {
+    width: 30%;
+    padding-left: 30%;
+    margin-left: 30%;
+    float: left;
+    font-style: italic;
+    /* background-color: lightgray; */
+  }
+  
+  .column {
+    float: left;
+    width: 50px;
+    padding: 5px;
+    margin-left: 40%;
+    
+  }
+  .column2 {
+    float: left;
+    width: 50px;
+    padding: 5px;
+    margin-left: 1%;
+    
+  }

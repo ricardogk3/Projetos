@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Table template</title>
+ 
+    <style>
+        body{
+            border:rgb(104, 103, 103) 1px solid;
+            border-radius: 15px;
+        }
+        input{
+            border-radius: 15px;
+            border: rgb(151, 145, 145) solid 1px;
+
+        }
+        button{
+            border-radius: 15px;
+        }
+    </style>
+
+</head>
+  
+  <body>
+
+    <legend>
+        <h1>Payment form</h1>
+        <p>Required fields are followed by *.</p>
+        <h2>Contact information</h2>
+    </legend>
+
+    <!-- tamanho máximo de caracteres de uma matriz: maxlength="8"  
+         tamanho maximo da caixinha: size="22" 
+         deixa o texto pre definido: placeholder="Banana" -->
+
+                <form action="/pagina-processa-dados-do-form" method="post">
+                    <fieldset>
+                        <legend>Title</legend>
+                              <label for="title_1">
+                                <input type="radio" id="title_1" name="title" value="K" >
+                                Ace
+                              </label>
+                              <label for="title_2">
+                                <input type="radio" id="title_2" name="title" value="Q">
+                                King
+                              </label>
+                              <label for="title_3">
+                                <input type="radio" id="title_3" name="title" value="J">
+                                Queen
+                              </label>
+                      </fieldset>
+                    <div>
+                        <label for="name">Name:*</label><br />
+                        <input type="text" id="name" size="30" /><br />
+                    </div>
+                    <div>
+                        <label for="mail">E-mail:*</label><br />
+                        <input type="email" id="mail" placeholder="exemplo_de_email@email.com"  size="30"  /><br />
+                    </div>
+                    <div>
+                        <label for="name">Password:*</label><br />
+                        <input type="password" id="name" size="30" 
+                        placeholder="   De oito caracteres" 
+                        maxlength="8" minlength="8" /><br />
+                    </div>
+                    <legend>
+                        <h2>Payment information</h2>
+                    </legend>
+                    <div>
+                        <label for="cardopt">Card type:</label><br />
+                        <select id="card" name="usercard">
+                            <option value="visa">Visa</option>
+                            <option value="mc">Mastercard</option>
+                            <option value="amex">American Express</option>
+                          </select>
+                    </div>
+                    <div>
+                        <label for="card">Card number:*</label><br />
+                        <input type="text" id="card"  size="30" /><br />
+                    </div>
+                    <div>
+                        <label for="fone">Expiration date:*</label><br />
+                        <input type="date" id="fone"  size="30" /><br /><br />
+                    </div>
+                    <section>
+                        <div class="button">
+                            <button type="submit">Validate the payment</button><br /><br />
+    
+                        </div>
+                    </section>
+
+            </form>
+
+               
+  </body>
+</html>
+	
+	

@@ -1,0 +1,53 @@
+h1{
+    color: white;
+    background-color: black;
+}
+
+body{
+    background-color:slategrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 20px;
+    color: green;
+    background-color: orange;
+}
+h2{
+    font-size: 20px;
+    color: purple;
+    background-color: yellow;
+}
+#titulo{
+    font-size: 100px;
+    color: tomato;
+}
+
+#sub{
+    font-size: 30px;
+}
+#pdark{
+    color: blue;
+    background-color: gray;
+    font-size: 10px
+}
+
+#prosa{
+    background-color: purple;
+    color: salmon;
+}
+
+.pen{
+    color:green;
+}
+.ult{
+    background-color: darkred;
+}
+.caixa{
+    background-color: black;
+}
+
+.caixa p{
+    background-color: white;
+}
+
