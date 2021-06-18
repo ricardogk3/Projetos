@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+.content {
+    background-image: url("imagens/hero.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 10px 10px 60px 40px rgba(24, 24, 1, 0.247);
+} */
+body{
+    background-image: repeating-linear-gradient(to right, red, orange, yellow, green, cyan, blue) ;
+}
+
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin: 50px;
+    border: black 1px solid;
+    /* box-shadow: 10px 10px 5px 20px rgba(24, 24, 1, 0.247); */
+    box-shadow: inset 10px 10px 60px 40px rgba(24, 24, 1, 0.247);
+    /* border: dashed 10px; */
+    /* padding: 10px; */
+    /* background-clip: padding-box; */
+    /* background-clip: content-box; */
+    float:right;
+}
+
+.div2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 136, 255);
+    margin: 50px;
+    box-shadow: -10px 10px 5px rgba(24, 24, 1, 0.247);
+    float: right;
+}
+
+.div3{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to top left, red, pink);
+    margin: 50px;
+    box-shadow: 10px -10px 5px rgba(24, 24, 1, 0.247);
+}
+
+
+.div4{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    box-shadow: inset -10px -10px 5px rgba(24, 24, 1, 0.247);
+    float:left;
+}
+
+.dav{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 50px;
+    box-shadow: -10px -10px 5px rgba(24, 24, 1, 0.247);
+}
+
+.div5{
+    height: 400px;
+    width: 300px;
+    background-image: repeating-linear-gradient(to top, red, yellow, pink, blue);
+    margin: 50px;
+    box-shadow: inset 40px 50px 80px #f1f;
+    float:left;
+}
+
+.div6{
+    height: 600px;
+    width: 600px;
+    background-image: repeating-radial-gradient(purple 1%, green 10%);
+    margin: 50px;
+    box-shadow: 25px -30px 10px orange;
+    float:left;
+}

@@ -1,0 +1,12 @@
+header {
+   width: 100vw;
+   height: 15vh;
+   background: black;
+   padding-top: 1.5em;
+}
+
+header div {
+   background: url('../img/logo')  center center / contain no-repeat;
+   width: 100vw;
+   height: 12vh;
+}
