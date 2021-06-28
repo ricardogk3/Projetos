@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1 {
+    height: 600px;
+    width: 100%;
+    background-color:aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    
+}
+.lay1 img{
+    margin-top: 50px;
+    width: 35%;
+    height: 15%;
+    background-color: aquamarine;
+}
+.lay1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+}
+
+.lay1 h1 {
+    margin-top: 30px;
+} 
+
+.div2 {
+    margin-top: 20px;
+    height: 600px;
+    width: 100%;
+    background-color:greenyellow;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+
+.div2 img{
+    margin-top: 50px;
+    width: 80%;
+    height: 40%;
+    background-color: burlywood;
+}
+
+
+.div3 {
+    height: 600px;
+    width: 100%;
+    background-color:aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    
+}
+
+.lay3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+}
+
+.lay3 h1, .lay3 p {
+    margin-top: 30px;
+} 
+
+
+@media(max-width:750px){
+    .div3 {
+        height: 600px;
+        width: 100%;
+        background-color:aqua;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    
+    .lay3{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: blue;
+    }
+    
+    .lay3 h1, .lay3 p {
+        margin-top: 30px;
+    } 
+}
+
+/* @media(min-width:900px){
+    .div1{
+        width: 90%;
+    }
+} */
+
+
+
+
+
+/* ir para o banheiro
+ligar luz
+abrir o box
+ligar a água
+ligar o som
+tirar a roupa
+entrar no chuveiro
+fechar o box
+verificar a tempertatura da agua
+passar agua
+usar o shampoo
+se ensaboar
+cantar
+tirar o shampoo
+tirar o sabonete
+passar agua
+desligar a agua
+se secar
+sair do box
+fechar o box
+passar o deso
+se pentiar
+usar roupa
+desligar o som
+desligar o luz 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
